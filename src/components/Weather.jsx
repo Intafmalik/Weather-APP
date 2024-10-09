@@ -104,29 +104,7 @@ const Weather = () => {
                 :
                 (<p>No weather data available.</p>)
             }
-            {/* <div className='data'>
-                <img src={weatherData.icon} alt='weather_Icon' className='weather-icon' />
-                <p className='temperature'>{weatherData.temperature} °C</p>
-                <p className='location'>{weatherData.location}</p>
-                </div>
-                <div className='weather-data'>
-                    <div className='col'>
-                        <img src={humidity_icon} alt='humidityIcon' />
-                        <div>
-                            <p>{weatherData.humidity} %</p>
-                            <span>Humidity</span>
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <img src={wind_icon} alt='windIcon' />
-                        <div>
-                            <p>{weatherData.windSpeed} Km/h</p>
-                            <span>Wind Speed</span>
-                        </div>
-                    </div>
-                </div> */}
-
-            {/* </div> */}
+          
         </div>
     )
 }
